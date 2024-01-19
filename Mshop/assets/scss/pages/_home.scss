@@ -1,0 +1,328 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    .headercontainer{
+        width: 95%;
+        display: flex;
+        padding: 10px;
+        align-items: center;
+        justify-content: space-between;
+        .navdiv{
+            display: flex;
+            gap: 30px;
+            width: 50%;
+            a{
+                color: black;
+                text-decoration: none;
+                font-size: 15px;
+                font-weight: bolder;
+                i{
+                    color: black;
+                    font-weight: bolder;
+
+                }
+            }
+        }
+        .dropdown{
+           display: none;
+            
+        }
+    }
+}
+@media screen and (max-width:600px){
+    header{
+        .headercontainer{
+            display: flex;
+            justify-content: space-around;
+            .navdiv{
+                display: none;
+            }
+            .dropdown{
+                display: block;
+            }
+        }
+    }
+}
+main{
+    #entrancesection{
+        background-color: $main-color;
+        width: 100%;
+        .container{
+            width: 95%;
+            .row{
+                .colimg{
+                    img{
+                        width: 100%;
+                    }
+                }
+                .coltext{
+                    h3{
+                        margin-top: 30px;
+                        margin-bottom: 30px;
+                        color: white;
+                        font-size: 50px;
+                        span{
+                            font-size: 20px;
+                            font-weight: 300;
+                        }
+                    }
+                    h1{
+                        font-weight: bolder;
+                        font-family: Arial, Helvetica, sans-serif;
+                        color: white;
+                        font-size: 45px;
+                        margin-bottom: 30px;
+                    }
+                    button{
+                        background-color: white;
+                        color: black;
+                        font-weight: bolder;
+                        border: none;
+                        border-radius: 30px;
+                        padding: 15px;
+                        margin-bottom: 30px;
+                    }
+                    button:hover{
+background-color: $hover-color;
+transition: 0.3s;
+color: white;
+                    }
+                }
+            }
+        }
+    }
+    #category{
+        width: 100%;
+        .container{
+            width: 95%;
+            .titlediv{
+                margin-top: 30px;
+                margin-bottom: 30px;
+                text-align: center;
+                h1{
+                    font-weight: bolder;
+                }
+                p{
+                    color: gray;
+                }
+            }
+            .row{
+                .col6img{
+                   img{
+                    width: 100%;
+                   }
+                   margin-bottom: 30px;
+                }
+                .col12img{
+                   img{
+                    width: 100%;
+                   }
+                }
+                .col4img{
+                 
+                    img{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+    #productsformen{
+        width: 100%;
+        background-color: $main-color;
+        .container{
+            width: 95%;
+            .titlediv{
+                margin-top: 30px;
+                margin-bottom: 30px;
+                text-align: center;
+              color: white;
+            }
+            .row{
+                .col3img{
+                    img{
+                        width: 100%;
+                    }
+                    p{
+                        color: white;
+                        font-weight: bolder;
+                        font-size: 25px;
+                    }
+                }
+            }
+        }
+    }
+    #productsforwomen{
+        width: 100%;
+        .container{
+            width: 95%;
+            .titlediv{
+                margin-top: 30px;
+                margin-bottom: 30px;
+                text-align: center;
+              color: black;
+              p{
+                color: gray;
+              }
+            }
+            #apidiv{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                width: 100%;
+                .box{
+                
+                    img{
+                        width: 100%;
+                    }
+                    font-weight: bolder;
+                    font-size: 20px;
+                    .btndiv{
+                        display: flex;
+                        justify-content: space-between;
+                        padding: 15px;
+                        button{
+                            background-color: white;
+                            color: black;
+                            font-weight: bolder;
+                            border: 1px solid $hover-color;
+                            border-radius: 30px;
+                            padding: 8px;
+                            margin-bottom: 30px;
+                        }
+                        button:hover{
+    background-color: $hover-color;
+    transition: 0.3s;
+    color: white;
+                        }
+                    }
+                
+                }
+            }
+        }
+    }
+    #related{
+        width: 100%;
+        .container{
+            width: 95%;
+            .titlediv{
+                margin-top: 30px;
+                margin-bottom: 30px;
+                text-align: center;
+              color: black;
+              p{
+                color: gray;
+              }
+            }
+            .row{
+                .blacklace{
+                    display: flex;
+                    padding: 10px;
+                    .blacklaceimg{
+                        img{
+                            width: 100%;
+                        }
+                    }
+                    .blacklacetext{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+                        text-align: center;
+                    
+                    }
+                }
+            }
+        }
+    }
+}
+footer{
+    width: 100%;
+    background-color: #222222;
+    .container{
+        width: 95%;
+        .aboutus{
+            margin-top: 30px;
+            h1{
+                color:white;
+                font-size: 30px;
+            }
+            p{
+                color: gray;
+            }
+        }
+        .news{
+            margin-top: 30px;
+            h1{
+                color:white;
+                font-size: 30px;
+            }
+            p{
+                color: gray;
+            }  
+          form{
+            height: 40px;
+            input{
+                height: 100%;
+                background-color: #191919;
+border: none;
+padding-left: 10px;
+            }
+            button{
+                height: 100%;
+                border: none;
+                color: white;
+                background-color: $hover-color;
+                padding: 5px;
+            }
+          }
+      
+        }
+        .feed{
+            margin-top: 30px;
+            h1{
+                color:white;
+                font-size: 30px;
+            }
+            .row{
+                .feedimg
+                {
+                    width: 100%;
+                    margin-bottom: 10px;
+                }
+            }
+          }
+          .follow{
+            margin-top: 30px;
+            h1{
+                color:white;
+                font-size: 30px;
+            }
+            p{
+                color: gray;
+            }
+            .followdiv{
+                color: white;
+                display: flex;
+                gap: 15px;
+            }
+          }
+    }
+    .footerdiv{
+        text-align: center;
+        margin-top: 30px;
+        p{
+            color: rgb(177, 175, 175);
+margin-bottom: 0rem;
+        }
+    }
+}

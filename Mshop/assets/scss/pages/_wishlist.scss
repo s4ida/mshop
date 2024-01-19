@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    #wishlistdiv{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 100%;
+        .box{
+        
+            img{
+                width: 100%;
+            }
+            font-weight: bolder;
+            font-size: 20px;
+            .btndiv{
+                display: flex;
+                justify-content: space-between;
+                padding: 15px;
+                button{
+                    background-color: white;
+                    color: black;
+                    font-weight: bolder;
+                    border: 1px solid $hover-color;
+                    border-radius: 30px;
+                    padding: 8px;
+                    margin-bottom: 30px;
+                }
+                button:hover{
+background-color: $hover-color;
+transition: 0.3s;
+color: white;
+                }
+            }
+        
+        }
+    }
+}

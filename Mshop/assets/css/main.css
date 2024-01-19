@@ -1,0 +1,490 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main #adddiv {
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+main #adddiv .selectsearchpostdiv {
+  width: 700px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(170, 122, 0);
+}
+main #adddiv .selectsearchpostdiv .formdiv {
+  width: 50%;
+}
+main #adddiv .selectsearchpostdiv .formdiv form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+main #adddiv .selectsearchpostdiv .formdiv form input {
+  width: 100%;
+}
+main #adddiv .selectsearchpostdiv .formdiv form button {
+  width: 40%;
+}
+main #adddiv .selectsearchpostdiv select {
+  background-color: white;
+  color: black;
+  font-weight: bolder;
+  border: 1px solid #F41068;
+  border-radius: 30px;
+  padding: 3px;
+}
+main #adddiv .selectsearchpostdiv select:hover {
+  background-color: #F41068;
+  transition: 0.3s;
+  color: white;
+}
+main #adddiv .selectsearchpostdiv form {
+  margin-bottom: 30px;
+}
+main #adddiv .selectsearchpostdiv form input {
+  border: 1px solid #F41068;
+  border-radius: 30px;
+  padding: 8px;
+  padding-left: 10px;
+}
+main #adddiv .selectsearchpostdiv form button {
+  background-color: white;
+  color: black;
+  font-weight: bolder;
+  border: 1px solid #F41068;
+  border-radius: 30px;
+  padding: 8px;
+}
+main #adddiv .selectsearchpostdiv form button:hover {
+  background-color: #F41068;
+  transition: 0.3s;
+  color: white;
+}
+main #adddiv table {
+  border: 1px solid black;
+  width: 700px;
+  text-align: center;
+}
+main #adddiv table tr {
+  display: flex;
+  justify-content: space-between;
+  background-color: greenyellow;
+}
+main #adddiv table tr th {
+  margin-bottom: 20px;
+  width: 40%;
+  border: 1px solid black;
+  padding: 10px;
+}
+main #adddiv table tr td {
+  width: 40%;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main #adddiv table tr td button {
+  background-color: white;
+  color: black;
+  font-weight: bolder;
+  border: 1px solid #F41068;
+  border-radius: 30px;
+  padding: 3px;
+}
+main #adddiv table tr td button:hover {
+  background-color: #F41068;
+  transition: 0.3s;
+  color: white;
+}
+main #adddiv table tr td img {
+  width: 50%;
+  height: 70%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main #basketdiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+}
+main #basketdiv .box {
+  font-weight: bolder;
+  font-size: 20px;
+}
+main #basketdiv .box img {
+  width: 100%;
+}
+main #basketdiv .box .btndiv {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+main #basketdiv .box .btndiv button {
+  background-color: white;
+  color: black;
+  font-weight: bolder;
+  border: 1px solid #F41068;
+  border-radius: 30px;
+  padding: 8px;
+  margin-bottom: 30px;
+}
+main #basketdiv .box .btndiv button:hover {
+  background-color: #F41068;
+  transition: 0.3s;
+  color: white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main #wishlistdiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+}
+main #wishlistdiv .box {
+  font-weight: bolder;
+  font-size: 20px;
+}
+main #wishlistdiv .box img {
+  width: 100%;
+}
+main #wishlistdiv .box .btndiv {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+main #wishlistdiv .box .btndiv button {
+  background-color: white;
+  color: black;
+  font-weight: bolder;
+  border: 1px solid #F41068;
+  border-radius: 30px;
+  padding: 8px;
+  margin-bottom: 30px;
+}
+main #wishlistdiv .box .btndiv button:hover {
+  background-color: #F41068;
+  transition: 0.3s;
+  color: white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+header .headercontainer {
+  width: 95%;
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+header .headercontainer .navdiv {
+  display: flex;
+  gap: 30px;
+  width: 50%;
+}
+header .headercontainer .navdiv a {
+  color: black;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bolder;
+}
+header .headercontainer .navdiv a i {
+  color: black;
+  font-weight: bolder;
+}
+header .headercontainer .dropdown {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  header .headercontainer {
+    display: flex;
+    justify-content: space-around;
+  }
+  header .headercontainer .navdiv {
+    display: none;
+  }
+  header .headercontainer .dropdown {
+    display: block;
+  }
+}
+main #entrancesection {
+  background-color: #F53795;
+  width: 100%;
+}
+main #entrancesection .container {
+  width: 95%;
+}
+main #entrancesection .container .row .colimg img {
+  width: 100%;
+}
+main #entrancesection .container .row .coltext h3 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: white;
+  font-size: 50px;
+}
+main #entrancesection .container .row .coltext h3 span {
+  font-size: 20px;
+  font-weight: 300;
+}
+main #entrancesection .container .row .coltext h1 {
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 45px;
+  margin-bottom: 30px;
+}
+main #entrancesection .container .row .coltext button {
+  background-color: white;
+  color: black;
+  font-weight: bolder;
+  border: none;
+  border-radius: 30px;
+  padding: 15px;
+  margin-bottom: 30px;
+}
+main #entrancesection .container .row .coltext button:hover {
+  background-color: #F41068;
+  transition: 0.3s;
+  color: white;
+}
+main #category {
+  width: 100%;
+}
+main #category .container {
+  width: 95%;
+}
+main #category .container .titlediv {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+main #category .container .titlediv h1 {
+  font-weight: bolder;
+}
+main #category .container .titlediv p {
+  color: gray;
+}
+main #category .container .row .col6img {
+  margin-bottom: 30px;
+}
+main #category .container .row .col6img img {
+  width: 100%;
+}
+main #category .container .row .col12img img {
+  width: 100%;
+}
+main #category .container .row .col4img img {
+  width: 100%;
+}
+main #productsformen {
+  width: 100%;
+  background-color: #F53795;
+}
+main #productsformen .container {
+  width: 95%;
+}
+main #productsformen .container .titlediv {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  color: white;
+}
+main #productsformen .container .row .col3img img {
+  width: 100%;
+}
+main #productsformen .container .row .col3img p {
+  color: white;
+  font-weight: bolder;
+  font-size: 25px;
+}
+main #productsforwomen {
+  width: 100%;
+}
+main #productsforwomen .container {
+  width: 95%;
+}
+main #productsforwomen .container .titlediv {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  color: black;
+}
+main #productsforwomen .container .titlediv p {
+  color: gray;
+}
+main #productsforwomen .container #apidiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+}
+main #productsforwomen .container #apidiv .box {
+  font-weight: bolder;
+  font-size: 20px;
+}
+main #productsforwomen .container #apidiv .box img {
+  width: 100%;
+}
+main #productsforwomen .container #apidiv .box .btndiv {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+main #productsforwomen .container #apidiv .box .btndiv button {
+  background-color: white;
+  color: black;
+  font-weight: bolder;
+  border: 1px solid #F41068;
+  border-radius: 30px;
+  padding: 8px;
+  margin-bottom: 30px;
+}
+main #productsforwomen .container #apidiv .box .btndiv button:hover {
+  background-color: #F41068;
+  transition: 0.3s;
+  color: white;
+}
+main #related {
+  width: 100%;
+}
+main #related .container {
+  width: 95%;
+}
+main #related .container .titlediv {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  color: black;
+}
+main #related .container .titlediv p {
+  color: gray;
+}
+main #related .container .row .blacklace {
+  display: flex;
+  padding: 10px;
+}
+main #related .container .row .blacklace .blacklaceimg img {
+  width: 100%;
+}
+main #related .container .row .blacklace .blacklacetext {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+footer {
+  width: 100%;
+  background-color: #222222;
+}
+footer .container {
+  width: 95%;
+}
+footer .container .aboutus {
+  margin-top: 30px;
+}
+footer .container .aboutus h1 {
+  color: white;
+  font-size: 30px;
+}
+footer .container .aboutus p {
+  color: gray;
+}
+footer .container .news {
+  margin-top: 30px;
+}
+footer .container .news h1 {
+  color: white;
+  font-size: 30px;
+}
+footer .container .news p {
+  color: gray;
+}
+footer .container .news form {
+  height: 40px;
+}
+footer .container .news form input {
+  height: 100%;
+  background-color: #191919;
+  border: none;
+  padding-left: 10px;
+}
+footer .container .news form button {
+  height: 100%;
+  border: none;
+  color: white;
+  background-color: #F41068;
+  padding: 5px;
+}
+footer .container .feed {
+  margin-top: 30px;
+}
+footer .container .feed h1 {
+  color: white;
+  font-size: 30px;
+}
+footer .container .feed .row .feedimg {
+  width: 100%;
+  margin-bottom: 10px;
+}
+footer .container .follow {
+  margin-top: 30px;
+}
+footer .container .follow h1 {
+  color: white;
+  font-size: 30px;
+}
+footer .container .follow p {
+  color: gray;
+}
+footer .container .follow .followdiv {
+  color: white;
+  display: flex;
+  gap: 15px;
+}
+footer .footerdiv {
+  text-align: center;
+  margin-top: 30px;
+}
+footer .footerdiv p {
+  color: rgb(177, 175, 175);
+  margin-bottom: 0rem;
+}
